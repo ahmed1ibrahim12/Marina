@@ -3,7 +3,7 @@ const countdownDisplay = document.querySelector('.countdown-display');
 const progressBar = document.querySelector('.progress-bar-inner');
 const confettiContainer = document.querySelector('.confetti-container');
 
-let targetDate = new Date('2025-06-29'); // default target date
+let targetDate = new Date('2025-06-28'); // default target date
 let countdownInterval;
 
 function createConfetti() {
