@@ -54,8 +54,8 @@ function updateCountdown() {
     if (timeRemaining <= 0) {
         clearInterval(countdownInterval);
         countdownContainer.innerHTML = `
-            <h2 class="celebration">We've Reached Our Goal!</h2>
-            <p class="celebration">🎉 Congratulations! 🎉</p>
+            <h2 class="celebration">يلا على مارينا</h2>
+            <p class="celebration">🎉 الفرحة! 🎉</p>
         `;
         
         // Start confetti animation
